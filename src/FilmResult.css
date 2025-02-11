@@ -1,0 +1,19 @@
+#filmResult{
+    width:200px;
+    background: white;
+    outline-color: darkgray;
+    outline-width: 1px;
+    outline-style: solid;
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+h1{
+    color:(0.2, 0.2, 0.2);
+    font-size: 1.8em;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

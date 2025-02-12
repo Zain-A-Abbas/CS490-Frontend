@@ -1,5 +1,5 @@
-#filmResult{
-    width:200px;
+.filmResult{
+    display: inline-block;
     background: white;
     outline-color: darkgray;
     outline-width: 1px;

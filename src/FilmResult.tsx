@@ -1,14 +1,18 @@
 import React from "react";
 import './FilmResult.css'
 
-function filmResult(filmName: string) {
+type FilmResultProps = {
+    filmName: String
+}
+
+function FilmResult({filmName}: FilmResultProps) {
     return (
         <>
             <div className="filmResult" id="filmResult">
-                <h1>{filmName}</h1>
+                <h1>↓ {filmName}</h1>
             </div>
         </>
     )
 }
 
-export default filmResult;
+export default FilmResult;

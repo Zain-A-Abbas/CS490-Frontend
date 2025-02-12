@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import filmResult from './FilmResult'
+import FilmList from './FilmList'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
-      {filmResult("AAA")}
+        {FilmList(["AAAhgyjnmvbyvyv", "BBB"])}
     </>
   )
 }

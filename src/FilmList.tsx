@@ -1,14 +1,18 @@
 import FilmResult from "./FilmResult";
+import { Film } from "./types";
 import "./FilmList.css"
 
-function FilmList(filmNames: string[]) {
+
+function FilmList(films: Film[]) {
+    //console.log(films);
     return (
         <>
         <div className="filmList">
-            {filmNames.map((film, index) => (
-                <FilmResult filmName={film} />
+            {films.map((film, index) => (
+                <FilmResult film={film} />
             ))}
         </div>
+
 
         </>
     )

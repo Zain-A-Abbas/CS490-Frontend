@@ -9,11 +9,44 @@
     padding-bottom: 0.25em;
 }
 
+.filmDetails{
+    display: inline-block;
+    background: color(srgb 0.95 0.95 0.95);
+    outline-color: darkgray;
+    outline-width: 1px;
+    outline-style: solid;
+    padding-left: 0.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.4em;
+}
+
 h1{
     color:(0.2, 0.2, 0.2);
     font-size: 1.8em;
     font-weight: normal;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+}
+
+h2{
+    text-align: left;
+    margin-top: 0.005em;
+    margin-bottom: 0.005em;
+}
+
+p{
+    text-align: left;
+    margin-top: 0.05em;
+    margin-bottom: 0.005em; 
+}
+
+ul{
+    margin: 0.1em;
+    padding-left: 1.25em;
+}
+
+li{
+    text-align: left;
 }

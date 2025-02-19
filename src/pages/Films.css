@@ -1,8 +1,11 @@
 input {
     color-scheme: white;
     margin: 4px;
+    font-size: 1.15em;
+    
 }
 
-select {
+select{
     color-scheme: white;
+    font-size: 1.15em;
 }

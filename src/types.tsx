@@ -14,3 +14,16 @@ export interface FilmDetails {
     replacementCost: number;
     rating: String;
 }
+
+export interface Actor {
+    actorId: number;
+    firstName: String;
+    lastName: String;
+}
+
+export interface ActorDetails {
+    actorId: number;
+    firstName: String;
+    lastName: String;
+    filmInfo: String;
+}

@@ -10,6 +10,7 @@ function Films() {
   const [searchedActorName, setSearchedActorName] = useState<String>("");
   const [searcedGenre, setSearchedGenre] = useState<number>(0);
   const [searchedFilms, setSearchedFilms] = useState<Film[]>([]);
+  
 
   const searchInput = (input: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm: String = input.target.value;

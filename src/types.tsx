@@ -27,3 +27,9 @@ export interface ActorDetails {
     lastName: String;
     filmInfo: String;
 }
+
+export interface Customer {
+    customerId: number;
+    firstName: String;
+    lastName: String;
+}
